@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding-top:40px;
+}
+
+.Todo-Layout {
+  margin:0px auto;
+  max-width: 550px;
+}
+
+.Todo-Layout p {
+ font-size:30px;
+ font-family: inherit;
+ margin:0px;
+ letter-spacing: 2px;
+ color: #00b3b3;
+}
+
+input[type=text] {
+display: block;
+margin-top:30px;
+padding:15px 25px;
+font-size:20px;
+background-color:#e6f9ff;
+color:#006080;
+width: 100%;
+border:none;
+font-family: inherit;
+}
+
+input[type=text]:focus {
+ outline: none;
+ border-bottom: 3px solid #00ace6;
+}
+
+span {
+  display: block;
+  margin-top:10px;
+  padding: 15px 25px;
+  font-size: 20px;
+  width:100%;
+  font-family: inherit;
+  text-align: left;
+  background-color: #99e6ff;
+  letter-spacing: 2px;
+}

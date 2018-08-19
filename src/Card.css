@@ -1,0 +1,24 @@
+.Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-Layout {
+    width: 100%;
+    padding:15px 25px;
+    font-size: 20px;
+    font-family: inherit;
+    text-align: left;
+    
+}
+
+.Card-Layout:hover {
+    background-color:#e6f9ff;
+}
+
+.Card-Delete {
+    font-size: 20px !important;
+    cursor: pointer;
+    color:#333 !important;
+}
